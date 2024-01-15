@@ -1,4 +1,4 @@
-name: Condition
+name: Condition2
 
 on: 
   workflow_dispatch:
