@@ -1,7 +1,6 @@
-name: Condition2
+name: Condition2 message
 
-on:  [push]
-  workflow_dispatch:
+on: push
 
 jobs:
   build:
