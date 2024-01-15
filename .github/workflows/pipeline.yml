@@ -72,8 +72,8 @@ jobs:
 
     - name: afficher docker hub
       run: |
-        echo ${{ secrets.DOCKER_HUB_USERNAME }}
-        echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+        echo "username" ${{ secrets.DOCKER_HUB_USERNAME }}
+        echo "access" ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
 
     - name: Login to Docker Hub
